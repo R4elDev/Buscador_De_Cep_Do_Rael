@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ceps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="form-container">
+        <div class="container">
+            <form action="">
+                <h1>BUSCADOR DE ENDEREÇO DO RAEL</h1>
+                <p>Escreva o CEP para conferir um endereço ;-;</p>
+
+                <div class="input-single">
+                    <input type="text" maxlength="8" onblur="pesquisacep(this.value);" name="cep" id="cep"
+                        class="input" autocomplete="off" required>
+                    <label for="cep">CEP</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="text" name="rua" id="rua" class="input" autocomplete="off" required>
+                    <label for="rua">Rua:</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="text" name="bairro" id="bairro" class="input" autocomplete="off" required>
+                    <label for="bairro">Bairro:</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="text" name="cidade" id="cidade" class="input" autocomplete="off" required>
+                    <label for="cidade">Cidade:</label>
+                </div>
+
+                <div class="input-single">
+                    <input type="text" name="uf" id="uf" class="input" autocomplete="off" required>
+                    <label for="uf">UF:</label>
+                </div>
+            </form>
+    </section>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
